@@ -2,7 +2,7 @@
 # Automatically generated file; DO NOT EDIT.
 # Linux/arm64 4.19.113 Kernel Configuration
 #
-
+CONFIG_BRIDGE_NETFILTER=y
 #
 # Compiler: clang version 10.0.6 for Android NDK
 #

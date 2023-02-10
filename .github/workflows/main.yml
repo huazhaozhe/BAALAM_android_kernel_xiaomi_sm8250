@@ -38,7 +38,7 @@ jobs:
         run: |
           sudo apt-get update 
           sudo apt-get upgrade
-          sudo apt-get install python bash sed wget git curl zip tar expect make cmake automake autoconf bison perl gperf gawk flex bc zstd openssl libcurl4-openssl-dev clang clang-tools gcc gcc-10-aarch64-linux-gnu build-essential
+          sudo apt-get install python2 bash sed wget git curl zip tar expect make cmake automake autoconf bison perl gperf gawk flex bc zstd openssl libcurl4-openssl-dev clang clang-tools gcc gcc-10-aarch64-linux-gnu build-essential
       - name: get and unzip aospclang
         run: |
            sudo apt-get install aria2 && sudo aria2c https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master.tar.gz && sudo tar -xzvf master.tar.gz
